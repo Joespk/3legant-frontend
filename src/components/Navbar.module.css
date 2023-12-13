@@ -1,7 +1,7 @@
 .body {
   display: flex;
   min-width: 320px; /* ตั้งขนาดต่ำสุดที่เท่าไหร่ก็ตามที่คุณต้องการ */
-  max-width: 1920px;
+  max-width: 1920px; /*ตั้งขนาดสูงสุด*/
   padding: 16px 100px;
   justify-content: space-between;
   align-items: center;
