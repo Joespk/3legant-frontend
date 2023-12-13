@@ -1,0 +1,14 @@
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: black;
+  background-color: white;
+  min-height: 100vh;
+  min-width: 320px; /* ตั้งขนาดต่ำสุดที่เท่าไหร่ก็ตามที่คุณต้องการ */
+  max-width: 1920px;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
