@@ -18,7 +18,7 @@
   color: var(--neutral-07100, #141718);
   font-feature-settings: "clig" off, "liga" off;
   /* Body 2 (Semi) */
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -29,7 +29,7 @@
   color: var(--Black-900, #121212);
   font-feature-settings: "clig" off, "liga" off;
   /* Caption 1 (Semi) */
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
