@@ -11,6 +11,7 @@
   align-items: flex-start;
   gap: 4px;
   align-self: stretch;
+  width: 262px;
 }
 
 .name {

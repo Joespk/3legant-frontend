@@ -1,8 +1,18 @@
 .container {
   display: flex;
-  width: 1440px;
-  padding: 48px 0px 100px 160px;
   flex-direction: column;
-  align-items: flex-start;
   gap: 48px;
+}
+
+.shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 คอลัมน์ที่มีความกว้างเท่ากัน */
+  gap: 10px;
 }

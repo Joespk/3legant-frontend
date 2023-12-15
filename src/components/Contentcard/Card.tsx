@@ -24,7 +24,7 @@ const Card = ({ content }: Icontentprops) => {
         <Typography component="legend"></Typography>
         <StyledRating name="read-only" value={content.rating} readOnly />
         <span className={classes.name}>{content.name}</span>
-        <p className={classes.price}>{content.price}</p>
+        <p className={classes.price}>${content.price}</p>
       </div>
     </div>
   );
