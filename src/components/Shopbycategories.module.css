@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  padding: 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.roundimage {
+  border-radius: 50%;
+  overflow: hidden; /* ต้องมี overflow: hidden เพื่อป้องกันส่วนที่เกินขอบของวงกลม */
+}
+
+p {
+  color: var(--Black-900, #121212);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Caption 1 (Semi) */
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 157.143% */
+}
+
+.shopcategories {
+  display: flex;
+  gap: 24px;
+}
