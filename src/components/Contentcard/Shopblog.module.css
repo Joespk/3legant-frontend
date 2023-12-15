@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 คอลัมน์ที่มีความกว้างเท่ากัน */
+  gap: 10px;
+}
