@@ -16,11 +16,11 @@ p {
   color: var(--Black-900, #121212);
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   font-feature-settings: "clig" off, "liga" off;
   /* Caption 1 (Semi) */
   font-family: "Inter";
-  font-size: 22px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 22px; /* 157.143% */
