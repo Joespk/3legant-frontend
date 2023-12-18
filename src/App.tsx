@@ -1,4 +1,5 @@
 import "./App.css";
+import Bannergrid from "./components/BannerGrid";
 import Shopblog from "./components/Contentcard/Shopblog";
 
 import Imageplaceholder from "./components/Imageplaceholder";
@@ -13,6 +14,7 @@ function App() {
       <Imageplaceholder />
       <Trendingbrands />
       <Shopbycategories />
+      <Bannergrid />
       <Shopblog />
     </>
   );

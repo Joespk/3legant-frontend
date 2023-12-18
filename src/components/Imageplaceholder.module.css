@@ -1,20 +1,31 @@
-.image {
+.background {
   display: flex;
-  max-width: 720px;
-  height: 820px;
-  flex-direction: column;
+  background-color: #171d28;
   justify-content: center;
   align-items: center;
 }
 
+.image {
+  grid-column: 1/2;
+  justify-self: auto;
+  max-width: 720px;
+  height: 820px;
+  background-image: url("../assets/ImagePlaceholder.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .container {
-  display: flex;
-  justify-content: space-around;
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 63px;
   align-items: center;
   background-color: #171d28;
 }
 
 .content {
+  grid-column-start: 2;
   display: flex;
   justify-content: space-between;
   gap: 10px;
