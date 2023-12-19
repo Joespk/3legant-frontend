@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  min-width: 320px; /* ตั้งขนาดต่ำสุดที่เท่าไหร่ก็ตามที่คุณต้องการ */
+  max-width: 1920px; /*ตั้งขนาดสูงสุด*/
+  padding: 8px 100px;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--Blue, #377dff);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.text {
+  color: var(--neutral-01100, #fefefe);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Caption 1 (Semi) */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 157.143% */
+}
+
+.icon {
+  position: absolute;
+  right: 5%;
+}
+
+.close {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.shopnow {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+}
