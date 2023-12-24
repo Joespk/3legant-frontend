@@ -82,14 +82,20 @@
 
 .content2 {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
-  gap: 16px;
+}
+
+.left {
+  display: flex;
+  width: 100%;
 }
 
 .privacy {
-  display: flex;
-  padding-left: 16px;
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 10px;
   gap: 16px;
   border-left: 1px solid var(--neutral-04100, #6c7275);
 }

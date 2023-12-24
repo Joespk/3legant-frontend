@@ -62,10 +62,14 @@ const Footer = () => {
         </div>
         <div className={classes.container2}>
           <div className={classes.content2}>
-            <span>Copyright © 2023 3legant. All rights reserved</span>
-            <div className={classes.privacy}>
-              <span>Privacy Policy</span>
-              <span>Terms & Conditions</span>
+            <div className={classes.left}>
+              <span>
+                Copyright © 2023 3legant. All rights reserved
+                <div className={classes.privacy}>
+                  <span>Privacy Policy</span>
+                  <span>Terms & Conditions</span>
+                </div>
+              </span>
             </div>
             <div className={classes.payment}>
               <img src={payment0} />
