@@ -10,8 +10,8 @@ const Imageplaceholder = () => {
           <span className={classes.every}>
             Everyone needs a good winter jacket. Find yours with our collection
             and more.
+            <button className={classes.button}>Shopping Now</button>
           </span>
-          <button className={classes.button}>Shopping Now</button>
         </div>
       </div>
     </div>
